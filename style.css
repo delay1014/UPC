@@ -1,0 +1,117 @@
+:root {
+    --color1: rgb(0, 26, 255);
+    --color2: rgb(20, 10, 56);
+    --color3: #161038;
+    --color4: rgb(38, 0, 255);
+    --color5: rgb(0, 0, 0);
+    --color6: #fff;
+    --color7: #fff;
+    --color8: #fff;
+    --color9: #fff;
+    --color10: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color2);
+    color: var(--color3)
+}
+
+.img_logo {
+    width: 55px;
+    padding: 20px 50px;
+}
+
+div,
+section,
+span,
+ul,
+li,
+a,
+header {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+   
+    width: 100%;
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+    z-index: 999;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a {
+    color: var(--color6);
+    text-decoration: none;
+    font-size: 20px
+}
+
+section {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#UPC {
+    background-color: var(--color2);
+}
+
+#save {
+    background-color: var(--color6);
+}
+
+#carisma {
+    background-color: var(--color2);
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color6);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.title {
+    font-size: calc(10px + 3vw);
+}
+
+.title p {
+    font-size: calc(10px + 1vw);
+}
+
+.countdown{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.countdown h1{
+    font-size: calc(10px + 8vw);
+    text-shadow: 0 0 10px  whitesmoke;
+}
