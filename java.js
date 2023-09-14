@@ -34,7 +34,7 @@ const contagemRegressiva = (tempo) => {
 
 const tempoRestante = () => {
    //1 de janeiro de 2023
-    const dataEvento = new Date ('2023-01-27 20:00:00');
+    const dataEvento = new Date ('2023-09-18 20:00:00');
     const hoje = Date.now();
     return Math.floor((dataEvento - hoje) / 1000);
 }
